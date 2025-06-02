@@ -1,0 +1,103 @@
+:root {
+    --texto: #cf1313;
+    --rea: #ffffff;
+}
+
+h1 {
+    background-color: var(--cor-de-fundo);
+    color: var(--texto);
+}
+
+body {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color: #381500;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #039800;
+    text-align: center;
+
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body span.hhh {
+    color: var(--rea);
+}
+
+.aff {
+    background-color: #1C3405;
+    margin-top: -30px;
+    color: rgb(202, 190, 190)
+}
+
+.minecraft {
+    width: 10%;
+}
+
+.Ferti {
+    width: 50%;
+
+}
+.enxada{
+    width: 50%;
+}
+
+.pa{
+    width: 50%;
+}
+
+.ace{
+    width: 50%;
+}
+
+.raba{
+    width: 50%;
+}
+
+.raçao{
+    width: 50%;
+}
+
+
+
+
+
+.texto{
+    color: rgb(202, 190, 190)
+}
+
+.algo{
+    display: flex;
+    grid-template-columns: 33% 33% 33%;
+
+}
+
+.algo2{
+    display: flex;
+    grid-template-columns: 33% 33% 33%;
+
+}
+
+@media screen and (min-width: 1024px) {
+    .minecraft {
+        width: 3%;
+    }
+
+
+}
+
+@media screen and (min-width: 1728px) {
+    /* pc */
+}
